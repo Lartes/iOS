@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		846685C71FDAF4480008A565 /* SBTServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846685C61FDAF4480008A565 /* SBTServiceTests.m */; };
 		ADAAA0711FD84C2600073FF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0701FD84C2600073FF2 /* AppDelegate.m */; };
 		ADAAA0741FD84C2600073FF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0731FD84C2600073FF2 /* ViewController.m */; };
 		ADAAA0771FD84C2600073FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAAA0751FD84C2600073FF2 /* Main.storyboard */; };
@@ -17,6 +16,7 @@
 		ADAAA09B1FDAE8CD00073FF2 /* SBTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0941FDAE8CC00073FF2 /* SBTPerson.m */; };
 		ADAAA09C1FDAE8CD00073FF2 /* SBTPersonProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0991FDAE8CD00073FF2 /* SBTPersonProvider.m */; };
 		ADAAA09D1FDAE8CD00073FF2 /* SBTService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA09A1FDAE8CD00073FF2 /* SBTService.m */; };
+		ADAAA0A41FDAF44700073FF2 /* SBTServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0A31FDAF44700073FF2 /* SBTServiceTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		846685C61FDAF4480008A565 /* SBTServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTServiceTests.m; sourceTree = "<group>"; };
 		ADAAA06C1FD84C2600073FF2 /* School_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAAA06F1FD84C2600073FF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADAAA0701FD84C2600073FF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		ADAAA0981FDAE8CD00073FF2 /* SBTPersonProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTPersonProviderProtocol.h; sourceTree = "<group>"; };
 		ADAAA0991FDAE8CD00073FF2 /* SBTPersonProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTPersonProvider.m; sourceTree = "<group>"; };
 		ADAAA09A1FDAE8CD00073FF2 /* SBTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTService.m; sourceTree = "<group>"; };
+		ADAAA0A31FDAF44700073FF2 /* SBTServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTServiceTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				ADAAA08A1FD84C2600073FF2 /* Info.plist */,
-				846685C61FDAF4480008A565 /* SBTServiceTests.m */,
+				ADAAA0A31FDAF44700073FF2 /* SBTServiceTests.m */,
 			);
 			path = School_2Tests;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846685C71FDAF4480008A565 /* SBTServiceTests.m in Sources */,
+				ADAAA0A41FDAF44700073FF2 /* SBTServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
