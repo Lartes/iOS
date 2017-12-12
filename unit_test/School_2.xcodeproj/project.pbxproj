@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84796AEF1FE0470900BF0877 /* SBTPersonProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84796AEE1FE0470900BF0877 /* SBTPersonProvider.m */; };
 		ADAAA0711FD84C2600073FF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0701FD84C2600073FF2 /* AppDelegate.m */; };
 		ADAAA0741FD84C2600073FF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAAA0731FD84C2600073FF2 /* ViewController.m */; };
 		ADAAA0771FD84C2600073FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAAA0751FD84C2600073FF2 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84796AEE1FE0470900BF0877 /* SBTPersonProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTPersonProvider.m; sourceTree = "<group>"; };
 		ADAAA06C1FD84C2600073FF2 /* School_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAAA06F1FD84C2600073FF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADAAA0701FD84C2600073FF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				ADAAA08A1FD84C2600073FF2 /* Info.plist */,
 				ADAAA0A31FDAF44700073FF2 /* SBTServiceTests.m */,
+				84796AEE1FE0470900BF0877 /* SBTPersonProvider.m */,
 			);
 			path = School_2Tests;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAAA0A41FDAF44700073FF2 /* SBTServiceTests.m in Sources */,
+				84796AEF1FE0470900BF0877 /* SBTPersonProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
