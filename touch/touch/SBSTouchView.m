@@ -39,10 +39,7 @@ static const NSInteger viewSize = 25;
 -(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     CGPoint touchCoord = [self pointForTouch:touches];
-    if ([self camMove:touchCoord])
-    {
-        self.viewToMove.center = touchCoord;
-    }
+    self.viewToMove.center = [self canMove:touchCoord];
     NSLog(@"касание идет c координатами x = %f, y = %f", touchCoord.x, touchCoord.y);
 }
 
@@ -65,9 +62,10 @@ static const NSInteger viewSize = 25;
 
 #pragma mark - addings
 
--(bool)camMove:(CGPoint) touchCoord
+-(CGPoint)canMove:(CGPoint) touchCoord
 {
-    return touchCoord.x > viewSize/2 &&touchCoord.y > viewSize/2 && touchCoord.x < CGRectGetWidth(self.frame) - viewSize/2 && touchCoord.y < CGRectGetHeight(self.frame) - viewSize/2;
+    return CGPointMake(MIN(MAX(touchCoord.x, viewSize/2), CGRectGetWidth(self.frame) - viewSize/2),
+                       MIN(MAX(touchCoord.y, viewSize/2), CGRectGetHeight(self.frame) - viewSize/2));
 }
 
 @end

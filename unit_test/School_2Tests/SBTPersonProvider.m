@@ -20,6 +20,10 @@
 
 @end
 
+@implementation MySBTPerson
+
+@end
+
 @interface SBTPersonProviderTests : XCTestCase
 
 @property (nonatomic, strong) SBTPersonProvider *provider;
@@ -64,8 +68,9 @@
                             };
     NSArray *arr = @[dict];
     NSArray *personList = [self.provider getPersonListFromJSON:arr];
-    
-    expect(personList[0].firstName).to.equal(@"Artem");
+    expect(((MySBTPerson*)personList[0]).firstName).to.equal(@"Artem");
+    expect(((MySBTPerson*)personList[0]).lastName).to.equal(@"Lomov");
+    expect(((MySBTPerson*)personList[0]).secondName).to.equal(@"Sergeevich");
 }
 
 
